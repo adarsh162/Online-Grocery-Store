@@ -1,0 +1,9 @@
+<div class="main">
+    <a href="index"><button>Home</button></a>
+    <form method="POST">
+        {%csrf_token%}
+       Are You Sure want to delete this item?
+        <input type="submit" value="Yes">
+        <a href="/">Cancel</a>
+    </form>
+</div>
